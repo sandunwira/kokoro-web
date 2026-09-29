@@ -1,6 +1,6 @@
-# Kokoro TTS
+# kokoro-web
 
-A free, browser-only text-to-speech app powered by [Kokoro-82M](https://github.com/hexgrad/kokoro) via [`kokoro-js`](https://www.npmjs.com/package/kokoro-js). No API keys, no server, no per-character charges, inference runs locally in the browser with ONNX Runtime (WASM).
+A free, browser-only text-to-speech web app powered by [Kokoro-82M](https://github.com/hexgrad/kokoro) via [`kokoro-js`](https://www.npmjs.com/package/kokoro-js). No API keys, no server, no per-character charges, inference runs locally in the browser with ONNX Runtime (WASM).
 
 ## Features
 
