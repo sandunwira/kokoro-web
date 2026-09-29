@@ -1,19 +1,19 @@
 # Kokoro TTS
 
-A free, browser-only text-to-speech app powered by [Kokoro-82M](https://github.com/hexgrad/kokoro) via [`kokoro-js`](https://www.npmjs.com/package/kokoro-js). No API keys, no server, no per-character charges — inference runs locally in the browser with ONNX Runtime (WASM).
+A free, browser-only text-to-speech app powered by [Kokoro-82M](https://github.com/hexgrad/kokoro) via [`kokoro-js`](https://www.npmjs.com/package/kokoro-js). No API keys, no server, no per-character charges, inference runs locally in the browser with ONNX Runtime (WASM).
 
 ## Features
 
-- **100% local generation** — audio never leaves the visitor's device
-- **On-demand model download** — the page loads instantly; the ~92 MB quantized (`q8`) model only downloads when you press **Download model**, then the browser caches it for later visits
-- **28 voices** — American/British English, male and female, with friendly names
-- **Speed control** — 0.7x to 1.4x
-- **Regeneration** — old audio is discarded automatically when generating a new clip
-- **Clear button** — manually remove the current audio
-- **Generating state** — spinner placeholder while audio is being produced
-- **Download WAV** — save the result as a `.wav` file
-- **Light/dark theme** — follows the system preference
-- **Responsive** — works on phones and desktops
+- **100% local generation**: audio never leaves the visitor's device
+- **On-demand model download**: the page loads instantly; the ~92 MB quantized (`q8`) model only downloads when you press **Download model**, then the browser caches it for later visits
+- **28 voices**: American/British English, male and female, with friendly names
+- **Speed control**: 0.7x to 1.4x
+- **Regeneration**: old audio is discarded automatically when generating a new clip
+- **Clear button**: manually remove the current audio
+- **Generating state**: spinner placeholder while audio is being produced
+- **Download WAV**: save the result as a `.wav` file
+- **Light/dark theme**: follows the system preference
+- **Responsive**: works on phones and desktops
 
 ## Getting started
 
@@ -52,7 +52,7 @@ No backend, database, or secrets are required.
 ## Notes
 
 - First model download takes a while on slow connections; progress is shown as a percentage.
-- Long texts should be chunked (sentence splitting) for production use — the UI caps input at 1,500 characters.
+- Long texts should be chunked (sentence splitting) for production use, the UI caps input at 1,500 characters.
 - English-first: other languages depend on the model's phonemizer coverage.
 - The Kokoro model weights are licensed under **Apache-2.0**.
 
